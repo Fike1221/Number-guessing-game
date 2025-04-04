@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 5px solid #eee;
+}
+.between {
+  text-align: right;
+  margin: 15px 15px auto auto;
+  font-size: 18px;
+}
+.again {
+  position: absolute;
+  color: #222;
+  padding: 5px 10px;
+  font-size: 23px;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 35px;
+}
+div {
+  text-align: center;
+  font-size: 39px;
+  background-color: #eee;
+  color: #222;
+  margin: auto 400px;
+  height: 70px;
+  padding: 8px;
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 3px;
+  background-color: transparent;
+  font-size: 35px;
+  border: 3px solid #eee;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 70px;
+  text-align: center;
+}
+
+.check {
+  color: #222;
+  font-size: 25px;
+  padding: 3px;
+  width: 120px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.right {
+  margin-right: 40px;
+}
+.message,
+.label-highscore,
+.label-score {
+  font-size: 20px;
+}
+.message {
+  margin-bottom: 50px;
+}
+.label-score {
+  margin-bottom: 20px;
+}
